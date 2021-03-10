@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T19:23:53.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vfa1IBe36LtxSpS5Kez4" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T19:26:06.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7ykUplmOUvw4FXeyxFsD" version="14.4.6" type="github">
   <diagram id="qjzeDgqdL2aKJla77leW" name="Page-1">
     <mxGraphModel dx="2512" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -97,6 +97,11 @@
         <mxCell id="vUzu1yKwPVAJK8qaTAhN-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="610" y="39" width="69" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="HlPV2CLXLyxxhXQfckxg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vUzu1yKwPVAJK8qaTAhN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vUzu1yKwPVAJK8qaTAhN-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="610" y="171" width="69" height="72" as="geometry" />
         </mxCell>
@@ -112,16 +117,6 @@
         <mxCell id="vUzu1yKwPVAJK8qaTAhN-28" value="Lambda N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="624.5" y="260" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vUzu1yKwPVAJK8qaTAhN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="-vlMi3lsnk5EaH7537CD-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="679" y="197" as="sourcePoint" />
-            <mxPoint x="840" y="196" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="690" y="197" />
-              <mxPoint x="690" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vUzu1yKwPVAJK8qaTAhN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vUzu1yKwPVAJK8qaTAhN-16" target="-vlMi3lsnk5EaH7537CD-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="669" y="317.01" as="sourcePoint" />
@@ -129,7 +124,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vUzu1yKwPVAJK8qaTAhN-33" value="Log Failure-Success Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="710" y="197" width="210" height="20" as="geometry" />
+          <mxGeometry x="720" y="171" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-vlMi3lsnk5EaH7537CD-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="260" y="34" width="100" height="320" as="geometry" />
@@ -162,7 +157,7 @@
           <mxGeometry x="4" y="100" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-vlMi3lsnk5EaH7537CD-19" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/sql_server.svg;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="180" width="61.6" height="80" as="geometry" />
+          <mxGeometry x="1000" y="150" width="61.6" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-vlMi3lsnk5EaH7537CD-39" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="4" y="370" width="210" height="260" as="geometry" />
